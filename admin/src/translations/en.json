@@ -1,0 +1,6 @@
+{
+  "plugin.name": "Theme",
+  "page.subtitle": "Design tokens applied to this admin panel. Edit them in Content Manager → Theme Settings.",
+  "page.reload": "Reload",
+  "page.edit": "Edit Theme Settings"
+}
