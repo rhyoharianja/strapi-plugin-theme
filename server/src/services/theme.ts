@@ -3,7 +3,7 @@ import type { Core } from '@strapi/strapi';
 import { DEFAULT_THEME, type ThemeSettings } from '../../../shared/theme';
 import { documents } from '../utils/documents';
 
-export const THEME_UID = 'plugin::content-hub-theme.theme-settings' as const;
+export const THEME_UID = 'plugin::theme.theme-settings' as const;
 
 /**
  * Reads and writes the Theme Settings single type.
@@ -74,7 +74,7 @@ const theme = ({ strapi }: { strapi: Core.Strapi }) => ({
       },
     });
 
-    strapi.log.info('[content-hub-theme] seeded Theme Settings with defaults');
+    strapi.log.info('[theme] seeded Theme Settings with defaults');
   },
 });
 

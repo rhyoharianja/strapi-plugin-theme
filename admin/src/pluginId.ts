@@ -1,1 +1,1 @@
-export const PLUGIN_ID = "content-hub-theme";
+export const PLUGIN_ID = "theme";

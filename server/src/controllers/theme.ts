@@ -10,7 +10,7 @@ const controller = ({ strapi }: { strapi: Core.Strapi }) => ({
   /** The current palette, consumed by the admin panel on every load. */
   async find(ctx): Promise<void> {
     const settings: ThemeSettings = await strapi
-      .plugin('content-hub-theme')
+      .plugin('theme')
       .service('theme')
       .find();
 
@@ -40,7 +40,7 @@ const controller = ({ strapi }: { strapi: Core.Strapi }) => ({
     }
 
     ctx.body = {
-      data: await strapi.plugin('content-hub-theme').service('theme').update(body),
+      data: await strapi.plugin('theme').service('theme').update(body),
     };
   },
 });

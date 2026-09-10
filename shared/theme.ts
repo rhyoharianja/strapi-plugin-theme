@@ -37,7 +37,7 @@ export const DEFAULT_THEME: ThemeSettings = {
 };
 
 /** localStorage key holding the last known theme, to prevent a flash before first paint. */
-export const THEME_CACHE_KEY = 'content-hub-theme';
+export const THEME_CACHE_KEY = 'theme';
 
 const HEX = /^#([0-9a-fA-F]{3}|[0-9a-fA-F]{6})$/;
 

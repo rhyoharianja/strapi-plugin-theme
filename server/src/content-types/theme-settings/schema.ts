@@ -6,7 +6,7 @@
  */
 export default {
   kind: 'singleType',
-  collectionName: 'content_hub_theme_settings',
+  collectionName: 'theme_settings',
   info: {
     singularName: 'theme-settings',
     pluralName: 'theme-settings-list',
